@@ -37,7 +37,5 @@ function bk_archive_pagination($query = null) // Here the name of your query
 
   if ($pagination) {
     return '<div class="archive-navigation">' . $pagination . '</div>';
-  } else {
-    return '<div class="archive-navigation">' . esc_attr('RIENICI') .' </div>';
   }
 }
